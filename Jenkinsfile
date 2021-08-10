@@ -11,11 +11,12 @@ stage('Prepare')
   script: this,
   host: 'https://hclutl1909.hcldigilabs.com:8001',
   abapCredentialsId: 'ABAPUserPasswordCredentialsId',
-  repository: 'HCL-DevOps-V1',
-  remoteRepositoryURL: "https://github.com/abhilashhaa/HCL-DevOps-V1.git",
+  repository: 'OpenSAP',
+  remoteRepositoryURL: "https://github.com/abhilashhaa/OpenSAPDemo.git",
   role: 'TARGET',
   vSID: 'FEF',
   rollback: 'false'
 	    )
+	
   
 }
